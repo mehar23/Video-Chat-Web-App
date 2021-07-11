@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href = "style.css" rel = "stylesheet" />
+</head>
+<body>
+  <img class = "main" src="../assets/logo.png">
+    <div class = "dropdown"></div>
+     <button class ="profile-log" onclick= "myFunction()" > Your account </button>
+     <div id="myDropdown" class="dropdown-content">
+        <center><h4><%= name %></h4></center>
+        <center><h4><%= email %></h4></center>
+        <br>
+        <form action="/logout?_method=DELETE" method="POST">
+        <center><button type="submit">Log Out</button></center>
+        <br>
+        </form>
+      </div>
+    </div>
+  <img class = "photos" src = "../assets/join.png">
+  <div class = "video-define"> Premium video meetings</div>
+  <div class = "video-define"> Now free for everyone.</div>
+  <div class = "define">Connect , collaborate and celebrate with all your friends </div>
+  <div class = "define">and Colleages using Teams.</div>
+
+  <form action = "/meeting" method="POST" class = "newmeeting">
+  <button class ="meeting" type = "submit">  New Meeting </button>
+  </form>
+  
+   <input class ="join" type="text" placeholder="Enter meeting link" name="link" id="name" required>
+   <button onclick="JoinMeeting()" class = "thisjoin">Join</button>
+  
+
+<style>
+button.profile-log
+{
+    position: absolute;
+    float: right;
+    right:30px;
+    top: 42px;
+    background-color: rgb(88, 88, 179); 
+    border: none;
+    color: white;
+    padding: 15px 31px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+body
+{
+    background-color: rgb(248, 245, 245);
+}
+
+div.video-define
+{
+   position: relative;
+   left : 55px;
+   top: 100px;
+   font-size: 50px;
+}
+
+div.define
+{
+   position: relative;
+   left : 55px;
+   top: 115px;
+   font-size: 19px;
+   color: rgb(49, 42, 42);
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+div.join-meeting
+{
+   position: relative;
+   top: 40px;
+}
+
+button.meeting
+{
+   position: relative;
+   left : 55px;
+   top: 170px;
+   background-color: rgb(76, 76, 155); 
+   border: none;
+   color: white;
+   padding: 15px 31px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.dropdown {
+  float: right;
+  right: 80px;
+  position: relative;
+  display: inline-block;
+}
+
+.profile-log:hover, .profile-log:focus {
+  background-color: #2980B9;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+input.join
+{
+   position: relative;
+   left: 55px;
+   top: 210px;
+   color: black;
+   text-decoration: none;
+   padding: 14px 28px;
+   font-size: 16px;
+}
+
+img.photos
+{
+    position: relative;
+    float:right;
+    right: 170px;
+    top: 70px;
+}
+
+button.thisjoin
+{
+   position: relative;
+   left : 100px;
+   top: 210px;
+   background-color: rgb(76, 76, 155); 
+   border: none;
+   color: white;
+   padding: 15px 31px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+img.main
+{
+    height :120px;
+    width :350px;
+}
+</style>
+
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    function JoinMeeting(){
+        var val = document.getElementById("name").value;
+        console.log(val);
+        location.replace(`${val}`);
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.profile-log')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+  
