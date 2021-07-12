@@ -10,20 +10,25 @@ The video call chat web app solves the current problem and is an easy way to com
 THE HOME PAGE
 
 ![main](https://user-images.githubusercontent.com/78142846/125280701-fe584600-e332-11eb-875f-5b092f245a9b.png)
+
 The page uses internal navigation and includes sections like services , about ( how teams software is built) , partner organisations that use teams in their internal usage and final a contact Us page for resolving queries
 
 <h3>Services </h3>
+
 ![services](https://user-images.githubusercontent.com/78142846/125280934-424b4b00-e333-11eb-84be-a55ebf371499.png)
 
 <h3>About </h3>
- ![about 1](https://user-images.githubusercontent.com/78142846/125282899-7de71480-e335-11eb-8c2e-1425e93769f3.png)
 
- ![about 2](https://user-images.githubusercontent.com/78142846/125282919-83445f00-e335-11eb-851e-5d7398cbb2eb.png)
+![about 1](https://user-images.githubusercontent.com/78142846/125292930-8f81e980-e340-11eb-8c9a-113d838da326.png)
+
+![about 2](https://user-images.githubusercontent.com/78142846/125292975-9b6dab80-e340-11eb-8cf8-18dccccc2140.png)
 
 <h3>Partners </h3>
+
 ![partners](https://user-images.githubusercontent.com/78142846/125282960-90614e00-e335-11eb-81e9-9180b2fd1e2c.png)
 
 <h3>Contact Us </h3>
+
  ![contact](https://user-images.githubusercontent.com/78142846/125283017-9fe09700-e335-11eb-8eb2-fe2882e74a0d.png)
 
 <h2>Features of the Website<h2>
