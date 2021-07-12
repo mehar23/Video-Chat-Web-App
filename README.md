@@ -1,4 +1,4 @@
-<h1> Video Chat Web App </h1>
+<h1 style = "size : 40px"> Video Chat Web App </h1>
 
 With ongoing Covid - 19 pandemic , virtual meetings and classrooms have become the need of the hour and thus a real time video chat application which is easy to use and highly secured is very much in requirement.
 The video call chat web app solves the current problem and is an easy way to communicate with our friends and colleagues.
