@@ -62,39 +62,47 @@ Authentication is here handled using passport and passport local libraries.The r
    The user gets logged in correct.
              
 
-</h3 style ="size:30px">2) Individual Profile Page </h3>
+<h3 style ="size:30px">2) Individual Profile Page </h3>
 
    <h3 style = "size: 25px">Profile page</h3>
    
    ![profile](https://user-images.githubusercontent.com/78142846/125284547-32356a80-e337-11eb-919d-5ce0a5a04012.png)
    
-   2.1) The meeting area includes a new meeting button to initiate a new meeting and a separate join meeting field through which others can join the meeting.
+ <h3 style = "size:25px">2.1) The meeting area </h3>
+ 
+        It includes a new meeting button to initiate a new meeting and a separate join meeting field through which others can join the meeting.
       
    ![meeting](https://user-images.githubusercontent.com/78142846/125284779-86d8e580-e337-11eb-880e-70bcc26b339e.png)
       
-   2.2) The Profile section includes the basic information and then the log out button
+ <h3 style = "size:25px">2.2) The Profile section </h3>
+ 
+    It includes the basic information and then the log out button
        
    ![account](https://user-images.githubusercontent.com/78142846/125284984-bdaefb80-e337-11eb-8a64-848605260663.png)
        
 <h3 style ="size:30px"> 3) Video Call Page </h3>
  
    <h3 style ="size:25px">3.1) The control Panel</h3>
+ 
    It includes invite people , mute (and unmute) , stop video (and play video) and end call features.
       
    ![panel](https://user-images.githubusercontent.com/78142846/125285164-fea71000-e337-11eb-9c5d-958da48ad216.png)
          
    <h3 style ="size:20px">3.1.1)  The Invite People button</h3>
+ 
    It provides the URL of the current meeting
                  
    ![people](https://user-images.githubusercontent.com/78142846/125285513-5ba2c600-e338-11eb-8f7c-d997c2a1d1ac.png)
 
                  
    <h3 style ="size:20px">3.1.2)  The Mute (and Unmute) Button</h3>
+ 
     It mutes the user and the user can unmute later as well
                  
    ![mute](https://user-images.githubusercontent.com/78142846/125285613-7412e080-e338-11eb-87b8-1cdac94b3e76.png)
                  
   <h3 style ="size:20px">3.1.3). The stop (and PLay video) Button</h3>
+ 
     It allows the user to stop the video and then play it later as well
                  
    ![video](https://user-images.githubusercontent.com/78142846/125287145-331bcb80-e33a-11eb-91a1-48c666cd1cdc.png)
@@ -102,7 +110,8 @@ Authentication is here handled using passport and passport local libraries.The r
    <h3 style="size:20px">3.1.4) The End Call simply removes the user from the call and directs it back to the profile page</h3>
 
   <h3 style ="size:25px">3.2) The Chat box</h3>
-  It allows real time chat during a video call (again implented using Socket.io , refer to the end for tech - stack)
+ 
+    It allows real time chat during a video call (again implented using Socket.io , refer to the end for tech - stack)
          
    ![chat1](https://user-images.githubusercontent.com/78142846/125287421-842bbf80-e33a-11eb-9d14-1449a811e6e8.png)
          
