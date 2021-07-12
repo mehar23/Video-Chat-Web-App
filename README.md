@@ -5,7 +5,7 @@ The video call chat web app solves the current problem and is an easy way to com
 
  #### [The link to the website](https://safe-brook-85135.herokuapp.com/)
 
-The Overview of the Project
+<h2>The Overview of the Project </h2>
 
 THE HOME PAGE
 
