@@ -60,13 +60,11 @@ Authentication is here handled using passport and passport local libraries.The r
    
    ![profile](https://user-images.githubusercontent.com/78142846/125284547-32356a80-e337-11eb-919d-5ce0a5a04012.png)
    
-   2.1) The meeting area 
-        It includes a new meeting button to initiate a new meeting and a separate join meeting field through which others can join the meeting.
+   2.1) The meeting area includes a new meeting button to initiate a new meeting and a separate join meeting field through which others can join the meeting.
       
       ![meeting](https://user-images.githubusercontent.com/78142846/125284779-86d8e580-e337-11eb-880e-70bcc26b339e.png)
       
-   2.2) The Profile section
-       It includes the basic information and then the log out button
+   2.2) The Profile section includes the basic information and then the log out button
        
       ![account](https://user-images.githubusercontent.com/78142846/125284984-bdaefb80-e337-11eb-8a64-848605260663.png)
        
