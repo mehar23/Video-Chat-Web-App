@@ -1,13 +1,13 @@
-<h1 style = "size : 50px"> Video Chat Web App </h1>
+<h1 style = "size : 55px"> Video Chat Web App </h1>
 
 With ongoing Covid - 19 pandemic , virtual meetings and classrooms have become the need of the hour and thus a real time video chat application which is easy to use and highly secured is very much in requirement.
 The video call chat web app solves the current problem and is an easy way to communicate with our friends and colleagues.
 
  #### [The link to the website](https://safe-brook-85135.herokuapp.com/)
 
-<h1 style ="size: 35px">The Overview of the Project </h1>
+<h1 style ="size: 38px">The Overview of the Project </h1>
 
-<h1 style ="style: 25px">THE HOME PAGE</h1>
+<h1 style ="size: 25px">The home Page</h1>
 
 ![main](https://user-images.githubusercontent.com/78142846/125280701-fe584600-e332-11eb-875f-5b092f245a9b.png)
 
@@ -64,7 +64,7 @@ Authentication is here handled using passport and passport local libraries.The r
 
 <h2 style ="size:30px">2) Individual Profile Page </h2>
 
-   <h3 style = "size: 32px">Profile page</h3>
+   <h3 style = "size: 25px">Profile page</h3>
    
    ![profile](https://user-images.githubusercontent.com/78142846/125284547-32356a80-e337-11eb-919d-5ce0a5a04012.png)
    
@@ -97,13 +97,13 @@ Authentication is here handled using passport and passport local libraries.The r
                  
    <h3 style ="size:20px">3.1.2)  The Mute (and Unmute) Button</h3>
  
-    It mutes the user and the user can unmute later as well
+   It mutes the user and the user can unmute later as well
                  
    ![mute](https://user-images.githubusercontent.com/78142846/125285613-7412e080-e338-11eb-87b8-1cdac94b3e76.png)
                  
   <h3 style ="size:20px">3.1.3). The stop (and PLay video) Button</h3>
  
-    It allows the user to stop the video and then play it later as well
+   It allows the user to stop the video and then play it later as well
                  
    ![video](https://user-images.githubusercontent.com/78142846/125287145-331bcb80-e33a-11eb-91a1-48c666cd1cdc.png)
                  
@@ -111,13 +111,13 @@ Authentication is here handled using passport and passport local libraries.The r
 
   <h3 style ="size:25px">3.2) The Chat box</h3>
  
-    It allows real time chat during a video call (again implented using Socket.io , refer to the end for tech - stack)
+   It allows real time chat during a video call (again implented using Socket.io , refer to the end for tech - stack)
          
    ![chat1](https://user-images.githubusercontent.com/78142846/125287421-842bbf80-e33a-11eb-9d14-1449a811e6e8.png)
          
    ![chat 2](https://user-images.githubusercontent.com/78142846/125287440-8a21a080-e33a-11eb-9a84-0370ac23be79.png)
          
-  <h2 style ="size:30px">3.3) The Screen Optimisation ( The most exciting feature)</h2>
+  <h3 style ="size:26px">3.3) The Screen Optimisation ( The most exciting feature)</h3>
         In general we must look to optimise the resources in hand and use them to the maximum limit. Screen optimisation works on the same logic. If we have one
         user in call the entire screen gets used up the user, for two users the video grid gets optimised to cater two people , for three people the sizes get 
         adjusted similarly and the screen optimisation keeps working a similar fashion.
