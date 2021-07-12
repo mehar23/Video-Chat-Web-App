@@ -144,7 +144,7 @@ Authentication is here handled using passport and passport local libraries.The r
       
    The basis of any real - time video or chat application is based on server side communication for which I used Socket.io and as far as video call is 
    considered , amongst all options WebRTC was used in this project .
-   Peerjs was used to accomplish the WebRTC functionaliy and hence allowing multiple users to view each other in a video call.
+   Peerjs was used to accomplish the WebRTC functionality and hence allowing multiple users to view each other in a video call.
       
    The authentication part was handled at server side using Passport and Passport-Local libraries and the user login and registeration was smoothly achieved 
    using them.
