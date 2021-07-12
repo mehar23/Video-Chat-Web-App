@@ -12,22 +12,23 @@ THE HOME PAGE
 ![main](https://user-images.githubusercontent.com/78142846/125280701-fe584600-e332-11eb-875f-5b092f245a9b.png)
 The page uses internal navigation and includes sections like services , about ( how teams software is built) , partner organisations that use teams in their internal usage and final a contact Us page for resolving queries
 
-Services
+<h3>Services </h3>
 ![services](https://user-images.githubusercontent.com/78142846/125280934-424b4b00-e333-11eb-84be-a55ebf371499.png)
 
-About
+<h3>About </h3>
 ![about 1](https://user-images.githubusercontent.com/78142846/125282899-7de71480-e335-11eb-8c2e-1425e93769f3.png)
 
 ![about 2](https://user-images.githubusercontent.com/78142846/125282919-83445f00-e335-11eb-851e-5d7398cbb2eb.png)
 
-Partners
+<h3>Partners </h3>
 ![partners](https://user-images.githubusercontent.com/78142846/125282960-90614e00-e335-11eb-81e9-9180b2fd1e2c.png)
 
-Contact Us![contact](https://user-images.githubusercontent.com/78142846/125283017-9fe09700-e335-11eb-8eb2-fe2882e74a0d.png)
+<h3>Contact Us </h3>
+ ![contact](https://user-images.githubusercontent.com/78142846/125283017-9fe09700-e335-11eb-8eb2-fe2882e74a0d.png)
 
-Features of the Website
+<h2>Features of the Website<h2>
 
-1) Authentication
+ <h3>1) Authentication</h3>
 Authentication is here handled using passport and passport local libraries.The register and login pages are set up differently and the user has to get authenticated to access his / her login page
 
   1.1) Register ( with random details)
@@ -56,7 +57,7 @@ Authentication is here handled using passport and passport local libraries.The r
    The user gets logged in correct.
              
 
-2) Individual Profile Page
+</h3>2) Individual Profile Page </h3>
 
    Profile page 
    
@@ -64,43 +65,43 @@ Authentication is here handled using passport and passport local libraries.The r
    
    2.1) The meeting area includes a new meeting button to initiate a new meeting and a separate join meeting field through which others can join the meeting.
       
-      ![meeting](https://user-images.githubusercontent.com/78142846/125284779-86d8e580-e337-11eb-880e-70bcc26b339e.png)
+   ![meeting](https://user-images.githubusercontent.com/78142846/125284779-86d8e580-e337-11eb-880e-70bcc26b339e.png)
       
    2.2) The Profile section includes the basic information and then the log out button
        
-      ![account](https://user-images.githubusercontent.com/78142846/125284984-bdaefb80-e337-11eb-8a64-848605260663.png)
+   ![account](https://user-images.githubusercontent.com/78142846/125284984-bdaefb80-e337-11eb-8a64-848605260663.png)
        
- 3) Video Call Page
+<h3> 3) Video Call Page </h3>
  
-     3.1) The control Panel
-          It includes invite people , mute (and unmute) , stop video (and play video) and end call features.
+   3.1) The control Panel
+   It includes invite people , mute (and unmute) , stop video (and play video) and end call features.
       
-       ![panel](https://user-images.githubusercontent.com/78142846/125285164-fea71000-e337-11eb-9c5d-958da48ad216.png)
+   ![panel](https://user-images.githubusercontent.com/78142846/125285164-fea71000-e337-11eb-9c5d-958da48ad216.png)
          
-       3.1.1)  The Invite People button
-               It provides the URL of the current meeting
+   3.1.1)  The Invite People button
+   It provides the URL of the current meeting
                  
-       ![people](https://user-images.githubusercontent.com/78142846/125285513-5ba2c600-e338-11eb-8f7c-d997c2a1d1ac.png)
+   ![people](https://user-images.githubusercontent.com/78142846/125285513-5ba2c600-e338-11eb-8f7c-d997c2a1d1ac.png)
 
                  
-       3.1.2)  The Mute (and Unmute) Button
-               It mutes the user and the user can unmute later as well
+   3.1.2)  The Mute (and Unmute) Button
+    It mutes the user and the user can unmute later as well
                  
-       ![mute](https://user-images.githubusercontent.com/78142846/125285613-7412e080-e338-11eb-87b8-1cdac94b3e76.png)
+   ![mute](https://user-images.githubusercontent.com/78142846/125285613-7412e080-e338-11eb-87b8-1cdac94b3e76.png)
                  
-       3.1.3). The stop (and PLay video) Button
-               It allows the user to stop the video and then play it later as well
+   3.1.3). The stop (and PLay video) Button
+    It allows the user to stop the video and then play it later as well
                  
-       ![video](https://user-images.githubusercontent.com/78142846/125287145-331bcb80-e33a-11eb-91a1-48c666cd1cdc.png)
+   ![video](https://user-images.githubusercontent.com/78142846/125287145-331bcb80-e33a-11eb-91a1-48c666cd1cdc.png)
                  
-       3.1.4) The End Call simply removes the user from the call and directs it back to the profile page
+   3.1.4) The End Call simply removes the user from the call and directs it back to the profile page
 
-    3.2) The Chat box
-     It allows real time chat during a video call (again implented using Socket.io , refer to the end for tech - stack)
+  3.2) The Chat box
+  It allows real time chat during a video call (again implented using Socket.io , refer to the end for tech - stack)
          
-     ![chat1](https://user-images.githubusercontent.com/78142846/125287421-842bbf80-e33a-11eb-9d14-1449a811e6e8.png)
+   ![chat1](https://user-images.githubusercontent.com/78142846/125287421-842bbf80-e33a-11eb-9d14-1449a811e6e8.png)
          
-     ![chat 2](https://user-images.githubusercontent.com/78142846/125287440-8a21a080-e33a-11eb-9a84-0370ac23be79.png)
+   ![chat 2](https://user-images.githubusercontent.com/78142846/125287440-8a21a080-e33a-11eb-9a84-0370ac23be79.png)
          
    3.3) The Screen Optimisation ( The most exciting feature)
         In general we must look to optimise the resources in hand and use them to the maximum limit. Screen optimisation works on the same logic. If we have one
@@ -125,7 +126,7 @@ Authentication is here handled using passport and passport local libraries.The r
          
          
  
-   THE TECH STACK USED
+   <h2>THE TECH STACK USED</h2>
       
    The basis of any real - time video or chat application is based on server side communication for which I used Socket.io and as far as video call is 
    considered , amongst all options WebRTC was used in this project .
