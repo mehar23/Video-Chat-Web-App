@@ -16,9 +16,9 @@ The page uses internal navigation and includes sections like services , about ( 
 ![services](https://user-images.githubusercontent.com/78142846/125280934-424b4b00-e333-11eb-84be-a55ebf371499.png)
 
 <h3>About </h3>
-![about 1](https://user-images.githubusercontent.com/78142846/125282899-7de71480-e335-11eb-8c2e-1425e93769f3.png)
+ ![about 1](https://user-images.githubusercontent.com/78142846/125282899-7de71480-e335-11eb-8c2e-1425e93769f3.png)
 
-![about 2](https://user-images.githubusercontent.com/78142846/125282919-83445f00-e335-11eb-851e-5d7398cbb2eb.png)
+ ![about 2](https://user-images.githubusercontent.com/78142846/125282919-83445f00-e335-11eb-851e-5d7398cbb2eb.png)
 
 <h3>Partners </h3>
 ![partners](https://user-images.githubusercontent.com/78142846/125282960-90614e00-e335-11eb-81e9-9180b2fd1e2c.png)
