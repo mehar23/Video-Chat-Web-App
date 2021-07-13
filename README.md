@@ -4,7 +4,7 @@ With ongoing Covid - 19 pandemic , virtual meetings and classrooms have become t
 The video call chat web app solves the current problem and is an easy way to communicate with our friends and colleagues.
 
  #### [The link to the website](https://safe-brook-85135.herokuapp.com/)
- #### [The link to the demo of the website](https://safe-brook-85135.herokuapp.com/)
+ #### [The link to the demo of the website](https://youtu.be/VjMaWsKosMg)
 
 <h1 style ="size: 38px">The Overview of the Project </h1>
 
